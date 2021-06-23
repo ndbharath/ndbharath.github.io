@@ -2,14 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://ndbharath.github.io/posts/my-first-post/</loc>
-    <lastmod>2021-06-21T00:32:43+05:30</lastmod>
+    <loc>http://ndbharath.github.io/posts/my-seventh-post/</loc>
+    <lastmod>2021-06-20T00:32:43+05:30</lastmod>
   </url><url>
     <loc>http://ndbharath.github.io/</loc>
-    <lastmod>2021-06-21T00:32:43+05:30</lastmod>
+    <lastmod>2021-06-20T00:32:43+05:30</lastmod>
   </url><url>
     <loc>http://ndbharath.github.io/posts/</loc>
-    <lastmod>2021-06-21T00:32:43+05:30</lastmod>
+    <lastmod>2021-06-20T00:32:43+05:30</lastmod>
+  </url><url>
+    <loc>http://ndbharath.github.io/posts/fifth_post/</loc>
+    <lastmod>2021-06-07T16:16:22+05:30</lastmod>
+  </url><url>
+    <loc>http://ndbharath.github.io/posts/fourth_post/</loc>
+    <lastmod>2021-06-07T16:16:22+05:30</lastmod>
+  </url><url>
+    <loc>http://ndbharath.github.io/posts/second_post/</loc>
+    <lastmod>2021-06-06T16:16:22+05:30</lastmod>
+  </url><url>
+    <loc>http://ndbharath.github.io/posts/my-first-post/</loc>
+    <lastmod>2021-06-05T14:16:22+05:30</lastmod>
+  </url><url>
+    <loc>http://ndbharath.github.io/posts/third_post/</loc>
+    <lastmod>2021-06-04T16:16:22+05:30</lastmod>
   </url><url>
     <loc>http://ndbharath.github.io/about/</loc>
     <priority>0</priority>
