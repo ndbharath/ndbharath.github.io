@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://ndbharath.github.io/posts/about/about/</loc>
-    <lastmod>2021-06-21T00:32:43+05:30</lastmod>
-  </url><url>
     <loc>http://ndbharath.github.io/posts/my-first-post/</loc>
     <lastmod>2021-06-21T00:32:43+05:30</lastmod>
   </url><url>
@@ -13,6 +10,9 @@
   </url><url>
     <loc>http://ndbharath.github.io/posts/</loc>
     <lastmod>2021-06-21T00:32:43+05:30</lastmod>
+  </url><url>
+    <loc>http://ndbharath.github.io/about/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://ndbharath.github.io/categories/</loc>
   </url><url>
