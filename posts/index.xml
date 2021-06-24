@@ -13,10 +13,22 @@
       <pubDate>Tue, 22 Jun 2021 00:32:43 +0530</pubDate>
       
       <guid>http://ndbharath.github.io/posts/my-seventh-post/</guid>
-      <description>  Installed Terraform on linux terminal, following steps given by this doc.    Created new directory and created a new file main.tf with the terraform configuration.
+      <description>Installed Terraform on linux terminal, following steps given by this doc.  
+  Created new directory and created a new file main.tf with the terraform configuration.
   terraform init command allows Terraform to interact with Docker.
   terraform plan does a dry run of your configuration.
-  terraform apply deploys changes according to main.tf.    </description>
+  terraform apply deploys changes according to main.tf.  
+  Created an AWS educate account.</description>
+    </item>
+    
+    <item>
+      <title>June 19th</title>
+      <link>http://ndbharath.github.io/posts/docker/</link>
+      <pubDate>Sat, 19 Jun 2021 11:29:13 +0530</pubDate>
+      
+      <guid>http://ndbharath.github.io/posts/docker/</guid>
+      <description>DOCKER
+Docker is an easy way to package an application with all its configuration and dependancies. Before Docker the developers and operations would have to manually downoad dependencies and often it would be the case that due to communication errors there might be problems. The public repository that stores images for Docker is Dockerhub. -Only one command that is docker pull/ docker run is required to pull the package along with the configurations.</description>
     </item>
     
     <item>
