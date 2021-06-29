@@ -6,7 +6,16 @@
     <description>Recent content on N D BHARATH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Jun 2021 00:32:43 +0530</lastBuildDate><atom:link href="http://ndbharath.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 00:32:43 +0530</lastBuildDate><atom:link href="http://ndbharath.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>June 29th</title>
+      <link>http://ndbharath.github.io/posts/eight/</link>
+      <pubDate>Tue, 29 Jun 2021 00:32:43 +0530</pubDate>
+      
+      <guid>http://ndbharath.github.io/posts/eight/</guid>
+      <description> Created new directory awsinterraform and added main.tf file added the following in the file. Credentials are hard coded for now.  provider &amp;quot;aws&amp;quot;{ region = &amp;quot;ap-south-1&amp;quot; access_key = &amp;quot;xxx&amp;quot; secret_key = &amp;quot;xxx&amp;quot; } resource &amp;quot;aws_instance&amp;quot; &amp;quot;my_second_server&amp;quot; { ami = &amp;quot;ami-0c1a7f89451184c8b&amp;quot; instance_type = &amp;quot;t2.micro&amp;quot; }  This is an ubuntu server with instance type t2.micro    </description>
+    </item>
+    
     <item>
       <title>June 22nd</title>
       <link>http://ndbharath.github.io/posts/my-seventh-post/</link>
