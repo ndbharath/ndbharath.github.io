@@ -6,7 +6,7 @@
     
     <title>June 29th | N D BHARATH</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content=" Created new directory awsinterraform and added main.tf file added the following in the file. Credentials are hard coded for now.  provider &quot;aws&quot;{ region = &quot;ap-south-1&quot; access_key = &quot;xxx&quot; secret_key = &quot;xxx&quot; } resource &quot;aws_instance&quot; &quot;my_second_server&quot; { ami = &quot;ami-0c1a7f89451184c8b&quot; instance_type = &quot;t2.micro&quot; }  This is an ubuntu server with instance type t2.micro    ">
+    <meta name="description" content="Created new directory awsinterraform and added main.tf file added the following in the file. Credentials are hard coded for now.  provider &quot;aws&quot;{ region = &quot;ap-south-1&quot; access_key = &quot;xxx&quot; secret_key = &quot;xxx&quot; } resource &quot;aws_instance&quot; &quot;my_second_server&quot; { ami = &quot;ami-0c1a7f89451184c8b&quot; instance_type = &quot;t2.micro&quot; }  This is an ubuntu server with instance type t2.micro    Installed aws cli and added security credentials.  terraform { required_providers { aws = { source = &quot;hashicorp/aws&quot; version = &quot;~&gt; 3.">
     <meta name="generator" content="Hugo 0.83.1" />
     
     
@@ -27,19 +27,19 @@
     
     
     <meta property="og:title" content="June 29th" />
-<meta property="og:description" content=" Created new directory awsinterraform and added main.tf file added the following in the file. Credentials are hard coded for now.  provider &quot;aws&quot;{ region = &quot;ap-south-1&quot; access_key = &quot;xxx&quot; secret_key = &quot;xxx&quot; } resource &quot;aws_instance&quot; &quot;my_second_server&quot; { ami = &quot;ami-0c1a7f89451184c8b&quot; instance_type = &quot;t2.micro&quot; }  This is an ubuntu server with instance type t2.micro    " />
+<meta property="og:description" content="Created new directory awsinterraform and added main.tf file added the following in the file. Credentials are hard coded for now.  provider &quot;aws&quot;{ region = &quot;ap-south-1&quot; access_key = &quot;xxx&quot; secret_key = &quot;xxx&quot; } resource &quot;aws_instance&quot; &quot;my_second_server&quot; { ami = &quot;ami-0c1a7f89451184c8b&quot; instance_type = &quot;t2.micro&quot; }  This is an ubuntu server with instance type t2.micro    Installed aws cli and added security credentials.  terraform { required_providers { aws = { source = &quot;hashicorp/aws&quot; version = &quot;~&gt; 3." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://ndbharath.github.io/posts/eight/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-06-29T00:32:43&#43;05:30" />
 <meta property="article:modified_time" content="2021-06-29T00:32:43&#43;05:30" />
 
 <meta itemprop="name" content="June 29th">
-<meta itemprop="description" content=" Created new directory awsinterraform and added main.tf file added the following in the file. Credentials are hard coded for now.  provider &quot;aws&quot;{ region = &quot;ap-south-1&quot; access_key = &quot;xxx&quot; secret_key = &quot;xxx&quot; } resource &quot;aws_instance&quot; &quot;my_second_server&quot; { ami = &quot;ami-0c1a7f89451184c8b&quot; instance_type = &quot;t2.micro&quot; }  This is an ubuntu server with instance type t2.micro    "><meta itemprop="datePublished" content="2021-06-29T00:32:43&#43;05:30" />
+<meta itemprop="description" content="Created new directory awsinterraform and added main.tf file added the following in the file. Credentials are hard coded for now.  provider &quot;aws&quot;{ region = &quot;ap-south-1&quot; access_key = &quot;xxx&quot; secret_key = &quot;xxx&quot; } resource &quot;aws_instance&quot; &quot;my_second_server&quot; { ami = &quot;ami-0c1a7f89451184c8b&quot; instance_type = &quot;t2.micro&quot; }  This is an ubuntu server with instance type t2.micro    Installed aws cli and added security credentials.  terraform { required_providers { aws = { source = &quot;hashicorp/aws&quot; version = &quot;~&gt; 3."><meta itemprop="datePublished" content="2021-06-29T00:32:43&#43;05:30" />
 <meta itemprop="dateModified" content="2021-06-29T00:32:43&#43;05:30" />
-<meta itemprop="wordCount" content="52">
+<meta itemprop="wordCount" content="100">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="June 29th"/>
-<meta name="twitter:description" content=" Created new directory awsinterraform and added main.tf file added the following in the file. Credentials are hard coded for now.  provider &quot;aws&quot;{ region = &quot;ap-south-1&quot; access_key = &quot;xxx&quot; secret_key = &quot;xxx&quot; } resource &quot;aws_instance&quot; &quot;my_second_server&quot; { ami = &quot;ami-0c1a7f89451184c8b&quot; instance_type = &quot;t2.micro&quot; }  This is an ubuntu server with instance type t2.micro    "/>
+<meta name="twitter:description" content="Created new directory awsinterraform and added main.tf file added the following in the file. Credentials are hard coded for now.  provider &quot;aws&quot;{ region = &quot;ap-south-1&quot; access_key = &quot;xxx&quot; secret_key = &quot;xxx&quot; } resource &quot;aws_instance&quot; &quot;my_second_server&quot; { ami = &quot;ami-0c1a7f89451184c8b&quot; instance_type = &quot;t2.micro&quot; }  This is an ubuntu server with instance type t2.micro    Installed aws cli and added security credentials.  terraform { required_providers { aws = { source = &quot;hashicorp/aws&quot; version = &quot;~&gt; 3."/>
 
 	
   </head>
@@ -163,9 +163,34 @@ resource &quot;aws_instance&quot; &quot;my_second_server&quot; {
 </code></pre><ul>
 <li>This is an ubuntu server with instance type t2.micro
 <script id="asciicast-421954" src="https://asciinema.org/a/421954.js" async></script>
-<script id="asciicast-421958" src="https://asciinema.org/a/421958.js" async></script></li>
+<script id="asciicast-421958" src="https://asciinema.org/a/421958.js" async></script>
+<script id="asciicast-422939" src="https://asciinema.org/a/422939.js" async></script></li>
+<li>Installed aws cli and added security credentials.</li>
 </ul>
-<ul class="pa0">
+<pre><code>terraform {
+  required_providers {
+    aws = {
+      source  = &quot;hashicorp/aws&quot;
+      version = &quot;~&gt; 3.27&quot;
+    }
+  }
+
+ required_version = &quot;&gt;= 0.14.9&quot;
+}
+
+provider &quot;aws&quot;{
+  profile = &quot;default&quot;
+  region = &quot;ap-south-1&quot;
+  
+
+}
+
+
+resource &quot;aws_instance&quot; &quot;my_second_server&quot; {
+  ami           = &quot;ami-0c1a7f89451184c8b&quot;
+  instance_type = &quot;t2.micro&quot; 
+}
+</code></pre><ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">
