@@ -6,7 +6,16 @@
     <description>Recent content in Posts on N D BHARATH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Jun 2021 00:32:43 +0530</lastBuildDate><atom:link href="http://ndbharath.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 00:32:43 +0530</lastBuildDate><atom:link href="http://ndbharath.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>June 9th</title>
+      <link>http://ndbharath.github.io/posts/ec2test/</link>
+      <pubDate>Thu, 08 Jul 2021 00:32:43 +0530</pubDate>
+      
+      <guid>http://ndbharath.github.io/posts/ec2test/</guid>
+      <description>terraform init -upgrade Used terraform apply to check changes to be made.    Tried deploying cluster but following error was shown. Error: Error creating IAM Role education-eks-an7UVqTT20210711173014545600000002: AccessDenied: User: arn:aws:iam::367704883367:user/f20190166@hyderabad.bits-pilani.ac.in is not authorized to perform: iam:CreateRole on resource: arn:aws:iam::367704883367:role/education-eks-an7UVqTT20210711173014545600000002 │ status code: 403, request id: 5b59d6a8-bd8e-4c44-98c7-586529081723 │ │ with module.eks.aws_iam_role.cluster[0], │ on .terraform/modules/eks/cluster.tf line 114, in resource &amp;ldquo;aws_iam_role&amp;rdquo; &amp;ldquo;cluster&amp;rdquo;: │ 114: resource &amp;ldquo;aws_iam_role&amp;rdquo; &amp;ldquo;cluster&amp;rdquo; { │ ╵ ╷ │ Error: error creating IAM policy education-eks-an7UVqTT-elb-sl-role-creation20210711173014541300000001: AccessDenied: User: arn:aws:iam::367704883367:user/f20190166@hyderabad.</description>
+    </item>
+    
     <item>
       <title>June 30th</title>
       <link>http://ndbharath.github.io/posts/ninth/</link>
@@ -26,15 +35,6 @@ aws ec2 delete-key-pair --key-name MyKeyPair Creating instance with EC2 aws ec2 
       
       <guid>http://ndbharath.github.io/posts/eight/</guid>
       <description>Created new directory awsinterraform and added main.tf file added the following in the file. Credentials are hard coded for now.  provider &amp;quot;aws&amp;quot;{ region = &amp;quot;ap-south-1&amp;quot; access_key = &amp;quot;xxx&amp;quot; secret_key = &amp;quot;xxx&amp;quot; } resource &amp;quot;aws_instance&amp;quot; &amp;quot;my_second_server&amp;quot; { ami = &amp;quot;ami-0c1a7f89451184c8b&amp;quot; instance_type = &amp;quot;t2.micro&amp;quot; }  This is an ubuntu server with instance type t2.micro    Installed aws cli and added security credentials.  terraform { required_providers { aws = { source = &amp;quot;hashicorp/aws&amp;quot; version = &amp;quot;~&amp;gt; 3.</description>
-    </item>
-    
-    <item>
-      <title>June 9th</title>
-      <link>http://ndbharath.github.io/posts/ec2test/</link>
-      <pubDate>Tue, 29 Jun 2021 00:32:43 +0530</pubDate>
-      
-      <guid>http://ndbharath.github.io/posts/ec2test/</guid>
-      <description>terraform init -upgrade Used terraform apply to check changes to be made.    Tried deploying cluster but following error was shown. Error: Error creating IAM Role education-eks-an7UVqTT20210711173014545600000002: AccessDenied: User: arn:aws:iam::367704883367:user/f20190166@hyderabad.bits-pilani.ac.in is not authorized to perform: iam:CreateRole on resource: arn:aws:iam::367704883367:role/education-eks-an7UVqTT20210711173014545600000002 │ status code: 403, request id: 5b59d6a8-bd8e-4c44-98c7-586529081723 │ │ with module.eks.aws_iam_role.cluster[0], │ on .terraform/modules/eks/cluster.tf line 114, in resource &amp;ldquo;aws_iam_role&amp;rdquo; &amp;ldquo;cluster&amp;rdquo;: │ 114: resource &amp;ldquo;aws_iam_role&amp;rdquo; &amp;ldquo;cluster&amp;rdquo; { │ ╵ ╷ │ Error: error creating IAM policy education-eks-an7UVqTT-elb-sl-role-creation20210711173014541300000001: AccessDenied: User: arn:aws:iam::367704883367:user/f20190166@hyderabad.</description>
     </item>
     
     <item>
