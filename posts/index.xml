@@ -29,6 +29,15 @@ aws ec2 delete-key-pair --key-name MyKeyPair Creating instance with EC2 aws ec2 
     </item>
     
     <item>
+      <title>June 9th</title>
+      <link>http://ndbharath.github.io/posts/ec2test/</link>
+      <pubDate>Tue, 29 Jun 2021 00:32:43 +0530</pubDate>
+      
+      <guid>http://ndbharath.github.io/posts/ec2test/</guid>
+      <description>terraform init -upgrade Used terraform apply to check changes to be made.    Tried deploying cluster but following error was shown. Error: Error creating IAM Role education-eks-an7UVqTT20210711173014545600000002: AccessDenied: User: arn:aws:iam::367704883367:user/f20190166@hyderabad.bits-pilani.ac.in is not authorized to perform: iam:CreateRole on resource: arn:aws:iam::367704883367:role/education-eks-an7UVqTT20210711173014545600000002 │ status code: 403, request id: 5b59d6a8-bd8e-4c44-98c7-586529081723 │ │ with module.eks.aws_iam_role.cluster[0], │ on .terraform/modules/eks/cluster.tf line 114, in resource &amp;ldquo;aws_iam_role&amp;rdquo; &amp;ldquo;cluster&amp;rdquo;: │ 114: resource &amp;ldquo;aws_iam_role&amp;rdquo; &amp;ldquo;cluster&amp;rdquo; { │ ╵ ╷ │ Error: error creating IAM policy education-eks-an7UVqTT-elb-sl-role-creation20210711173014541300000001: AccessDenied: User: arn:aws:iam::367704883367:user/f20190166@hyderabad.</description>
+    </item>
+    
+    <item>
       <title>June 22nd</title>
       <link>http://ndbharath.github.io/posts/my-seventh-post/</link>
       <pubDate>Tue, 22 Jun 2021 00:32:43 +0530</pubDate>
